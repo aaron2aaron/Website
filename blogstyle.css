@@ -1,9 +1,14 @@
 html {
     background-color:rgb(236, 240, 240);
-    text-align: center;
 }
 
 p {
     box-sizing: content-box;
     width: 60%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
