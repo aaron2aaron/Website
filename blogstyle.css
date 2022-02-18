@@ -7,8 +7,6 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: grey;
-    opacity: 0.4;
     flex-wrap: wrap;
 }
 
