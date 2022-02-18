@@ -16,6 +16,10 @@ html {
     padding: 10% 2% 10% 2%;
 }
 
+img {
+    object-fit: cover;
+}
+
 .nav a {
     float: left;
     text-align: center;
