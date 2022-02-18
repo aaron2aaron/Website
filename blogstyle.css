@@ -1,4 +1,9 @@
 html {
-    background-color:cadetblue;
+    background-color:rgb(236, 240, 240);
     text-align: center;
+}
+
+p {
+    box-sizing: content-box;
+    width: 60%;
 }
