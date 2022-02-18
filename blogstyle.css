@@ -10,6 +10,21 @@ html {
     flex-wrap: wrap;
 }
 
+.nav {
+    background-color:rgba(165, 14, 14, 0.658);
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color:darkred;
+    color: black;
+}
+
 p {
     width: 60%;
 }
