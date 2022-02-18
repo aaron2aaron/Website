@@ -10,10 +10,34 @@ html {
     flex-wrap: wrap;
 }
 
+h1 {
+    text-align: center;
+    font-size: 250%
+}
+
+.subtitle {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 125%;
+}
+
 .nav {
-    background-color:cornflowerblue;
+    background-color:#78b6e6;
+}
+
+.link {
     overflow: hidden;
-    padding: 5% 2% 5% 2%;
+    padding: 3% 15% 5% 15%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
 
 img {
@@ -24,15 +48,17 @@ img {
 
 .nav a {
     float: left;
-    text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 .nav a:hover {
-    background-color:darkred;
+    background-color:white;
     color: black;
 }
 
-p {
+.body p {
     width: 60%;
     padding-bottom: 30%;
+    justify-content: center;
 }
