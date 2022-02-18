@@ -13,6 +13,7 @@ html {
 .nav {
     background-image: url("non_copyrighted_GT86.jfif");
     overflow: hidden;
+    padding: 10% 5% 10% 5%;
 }
 
 .nav a {
