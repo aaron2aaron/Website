@@ -2,11 +2,6 @@ html {
     background-color:rgb(236, 240, 240);
 }
 
-p {
-    box-sizing: content-box;
-    width: 60%;
-}
-
 .box {
     display: flex;
     align-items: center;
