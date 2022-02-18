@@ -8,3 +8,7 @@ html {
     justify-content: center;
     flex-direction: column;
 }
+
+p {
+    width: 60%;
+}
