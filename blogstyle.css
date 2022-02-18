@@ -11,14 +11,15 @@ html {
 }
 
 .nav {
-    background-image: url("non_copyrighted_GT86.jfif");
+    background-color:cornflowerblue;
     overflow: hidden;
     padding: 5% 2% 5% 2%;
-    object-fit: cover;
 }
 
 img {
-    object-fit: contain;
+    object-fit: cover;
+    width: 47%;
+    height: auto;
 }
 
 .nav a {
