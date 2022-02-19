@@ -57,7 +57,11 @@ img {
     color: black;
 }
 
+<<<<<<< HEAD
 .body {
+=======
+body p {
+>>>>>>> 960ff189ddf5f64ae990ffb6692647888453b3ff
     width: 60%;
     padding-bottom: 30%;
     justify-content: center;
