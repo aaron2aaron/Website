@@ -2,40 +2,41 @@ html {
     background-color:rgb(236, 240, 240);
 }
 
-
+* {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
 
 .box {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 h1 {
-    text-align: center;
-    font-size: 250%
-}
-
-.subtitle {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 125%;
+    align-self:center;
+    position:absolute;
+    align-items: center;
 }
 
 .nav {
     background-color:#78b6e6;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    font-size: 190%;
+    flex-grow: 200%;
 }
 
-.link {
-    overflow: hidden;
-    padding: 3% 15% 5% 15%;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 150%;
+.active {
+    padding: 0% 2% 0 2%;
+    flex-flow: hidden;
 }
+
 
 .break {
     flex-basis: 100%;
@@ -49,7 +50,6 @@ img {
 }
 
 .nav a {
-    float: left;
     color: white;
     text-decoration: none;
 }
@@ -64,8 +64,6 @@ img {
     width: 60%;
     height: auto;
     justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .body img {
