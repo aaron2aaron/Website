@@ -2,6 +2,8 @@ html {
     background-color:rgb(236, 240, 240);
 }
 
+
+
 .box {
     display: flex;
     align-items: center;
@@ -57,12 +59,21 @@ img {
     color: black;
 }
 
-<<<<<<< HEAD
+
 .body {
-=======
-body p {
->>>>>>> 960ff189ddf5f64ae990ffb6692647888453b3ff
     width: 60%;
-    padding-bottom: 30%;
+    height: auto;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body img {
+    width: 95%;
+    height: auto;
+    min-width: 0;
+}
+
+.body p {
+    padding-bottom: 200%;
 }
