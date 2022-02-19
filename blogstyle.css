@@ -1,14 +1,7 @@
-html {
-    background-color:rgb(236, 240, 240);
-}
-
 * {
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    flex-direction: column;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .box {
@@ -18,23 +11,21 @@ html {
 }
 
 h1 {
-    align-self:center;
-    position:absolute;
-    align-items: center;
+    padding: 2px 5px 2px 5px;
+    margin: 0 0 0 0;
+    color:#78b6e6;
+}
+
+.active {
+    font-size: 190%;
 }
 
 .nav {
     background-color:#78b6e6;
-    flex-direction: row;
-    align-self: center;
-    width: 100%;
-    font-size: 190%;
-    flex-grow: 200%;
-}
-
-.active {
-    padding: 0% 2% 0 2%;
-    flex-flow: hidden;
+    overflow: hidden;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -52,11 +43,15 @@ img {
 .nav a {
     color: white;
     text-decoration: none;
+    float: left;
+    padding: 4px 15px 4px 15px;
+    margin: 0 0 0 0;
+    font-size: 25px;
 }
 
 .nav a:hover {
-    background-color:white;
-    color: black;
+    background-color:#6da5cf;
+    color: white;
 }
 
 
