@@ -4,10 +4,12 @@
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-.box {
-    align-items: center;
-    justify-content: center;
+.container {
     flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    text-align: center;
 }
 
 h1 {
@@ -23,11 +25,9 @@ h1 {
 .nav {
     background-color:#78b6e6;
     overflow: hidden;
-    align-items: center;
     position: sticky;
     top: 0;
 }
-
 
 .break {
     flex-basis: 100%;
@@ -35,7 +35,6 @@ h1 {
 }
 
 img {
-    object-fit: cover;
     width: 47%;
     height: auto;
 }
@@ -43,7 +42,6 @@ img {
 .nav a {
     color: white;
     text-decoration: none;
-    float: left;
     padding: 4px 15px 4px 15px;
     margin: 0 0 0 0;
     font-size: 25px;
@@ -54,19 +52,10 @@ img {
     color: white;
 }
 
-
 .body {
-    width: 60%;
-    height: auto;
-    justify-content: center;
-}
-
-.body img {
-    width: 95%;
-    height: auto;
-    min-width: 0;
-}
-
-.body p {
-    padding-bottom: 200%;
+    /*Use this to see flexbox - background-color: black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 300px;
 }
