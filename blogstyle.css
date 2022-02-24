@@ -61,5 +61,6 @@ img {
 }
 
 footer {
-   align-tems: center;
+   align-items: center;
+   padding: 5px 0px 5px 0px;
 }
