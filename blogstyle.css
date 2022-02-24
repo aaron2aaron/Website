@@ -61,7 +61,7 @@ img {
 }
 
 .right {
-    text-align: right;
+    align-items: right;
 } 
 
 footer {
