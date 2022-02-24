@@ -55,7 +55,7 @@ img {
 .body {
     /*Use this to see flexbox - background-color: black;*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding-bottom: 300px;
 }
